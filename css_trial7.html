@@ -28,6 +28,39 @@
           display: inline-block;
         }
 
+      .middle {
+        background-color: #cccccc;
+        width: 142px;
+        margin-left: 6px;
+        margin-top: 6px;
+        margin-right: 0;
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .long {
+        height: 100px;
+      }
+
+      .short {
+        height: 75px;
+      }
+
+      .bottom {
+          background-color: #cccccc;
+          width: 291px;
+          height: 118px;
+          margin-left: 6px;
+          margin-top: 6px;
+          margin-right: 0;
+          display: inline-block;
+        }
+
+      #little {
+        height: 35px;
+      }
+
+
     </style>
 </head>
 <body>
@@ -39,8 +72,16 @@
     </div>
   </div>
   <div class="rectangle">
+    <div class='middle long'>
+    </div><div class='middle short'>
+    </div><div class='middle long'>
+    </div><div class='middle short'>
+    </div>
   </div>
   <div class="rectangle">
+    <div class="bottom" id="little">
+    </div><div class='bottom'>
+    </div>
   </div>
 </body>
 </html>
